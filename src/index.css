@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.logo-container {
+  width: 500px;
+  height: 600px;
+  background: #262626;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-container .logo {
+  width: 90%;
+  height: 90%;
+  background: #383232;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-container .logo-base {
+  width: 250px;
+  height: 250px;
+  background: transparent;
+  border: 30px solid transparent;
+  border-left-color: #a3d6a3;
+  border-top-color: #d6825a;
+  border-right-color: #c4bfaa;
+  border-bottom-color: #50a3f8;
+  transform: rotate(45deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.logo-container .logo-base .edge {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+.logo-container .logo-base .edge1 {
+  background: #99664b;
+  top: 0;
+  left: 0;
+  transform: translate(-100%, -100%);
+}
+.logo-container .logo-base .edge2 {
+  background: #a45b3c;
+  top: 0;
+  right: 0;
+  transform: translate(100%, -100%);
+}
+.logo-container .logo-base .edge3 {
+  background: #4988b3;
+  bottom: 0;
+  right: 0;
+  transform: translate(100%, 100%);
+}
+.logo-container .logo-base .edge4 {
+  background: #40aab3;
+  left: 0;
+  bottom: 0;
+  transform: translate(-100%, 100%);
+}
+.logo-container .logo-base .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-45deg);
+}
+.logo-container .logo-base .info .and {
+  color: #d6825a;
+}
+.logo-container .logo-base .info h2 {
+  font-size: 30px;
+  color: white;
+}
+.logo-container .logo-base .info p {
+  font-size: 16px;
+  color: white;
+}
