@@ -11,7 +11,7 @@ function LogoDesign() {
           <div className="edge edge4"></div>
           <div className="info">
             <h2>
-              HTML <span className="and">&</span> CSS Saiteja
+              HTML <span className="and">&</span> CSS
             </h2>
             <p>Design and build css</p>
           </div>
